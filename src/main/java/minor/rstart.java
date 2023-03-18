@@ -22,12 +22,10 @@ public class rstart
         System.out.println("Hello");
         return "index";
     } 
-
 @RequestMapping(value = "/start", method = RequestMethod.GET)
     public String start() {
         return "final_start";
-    }
-    
+    }    
     @RequestMapping(value = "/loginpage", method = RequestMethod.GET)
     public String login() {
         return "login";
