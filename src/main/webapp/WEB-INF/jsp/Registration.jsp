@@ -402,7 +402,7 @@
           </li>
           
           <li class="nav-item px-3">
-              <a class="nav-link" href="#about-us">About Us</a>
+              <a class="nav-link" href="about">About Us</a>
           </li>
           <li class="nav-item px-3">
             <a href="#">
@@ -478,7 +478,7 @@
                                             <li><input type="tel"  placeholder="Age" name="f">
                                             <li><input type="text" placeholder="Medical History (if any)" name="k">
                                             <li><div class="pas" id="pas-field"> <span class="pas-1">Password </span>
-                                                    <input type="password" placeholder="***" name="d"></div>
+                                                    <input type="password" placeholder="Enter Your Password" name="d"></div>
                                         </ul></div>
 
                                     <div class="ip2-ul2">
