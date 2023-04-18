@@ -84,7 +84,7 @@ public class rstart
           Class.forName("com.mysql.jdbc.Driver");
   
 //step2 create  the connection object  
-Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/MINOR?characterEncoding=utf8","root","Monu@2003");
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/minor", "root", "Monu@2003");
     PreparedStatement stmt = con.prepareStatement("INSERT INTO user VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 
             stmt.setString(1, a);
@@ -92,35 +92,21 @@ Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/MINOR?ch
             stmt.setString(3, c);
             stmt.setString(4, d);
 //            stmt.setInt(5, Integer.parseInt(e));
-            stmt.setInt(6, Integer.parseInt(f));
-            stmt.setString(7, g);
-            stmt.setInt(8, Integer.parseInt(h));
-            stmt.setInt(9, Integer.parseInt(i));
-            stmt.setInt(10, Integer.parseInt(j));
-            stmt.setString(11, k);
-            stmt.setString(12, l);
-            stmt.setInt(13, Integer.parseInt(m));
-            stmt.setString(14, n);
-            stmt.setInt(15, Integer.parseInt(p));
+            stmt.setInt(5, Integer.parseInt(f));
+            stmt.setString(6, g);
+            stmt.setInt(7, Integer.parseInt(h));
+            stmt.setInt(8, Integer.parseInt(i));
+            stmt.setInt(9, Integer.parseInt(j));
+            stmt.setString(10, k);
+            stmt.setString(11, l);
+            stmt.setInt(12, Integer.parseInt(m));
+            stmt.setString(13, n);
+            stmt.setInt(14, Integer.parseInt(p));
 
             stmt.executeUpdate();
         } catch (Exception K) {
             System.out.println(K.getMessage());
         }
-//        object1.addAttribute("fname", a);
-//        object1.addAttribute("lname", b);
-//        object1.addAttribute("addres", c);
-//        object1.addAttribute("pass", d);
-//        object1.addAttribute("age", f);
-//        object1.addAttribute("dob", g);
-//        object1.addAttribute("weight", h);
-//        object1.addAttribute("height", i);
-//        object1.addAttribute("adhar", j);
-//        object1.addAttribute("medhist", k);
-//        object1.addAttribute("gender", l);
-//        object1.addAttribute("phone", m);
-//        object1.addAttribute("email", n);
-//        object1.addAttribute("pincode", p);
         return "successful_message";
     }
 }
