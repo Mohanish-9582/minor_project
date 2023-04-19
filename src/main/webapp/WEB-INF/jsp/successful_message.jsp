@@ -116,7 +116,7 @@
     <p id='message'>
       Congratulations, your account has been successfully created.
     </p>
-    <a href="#" id="contBtn">Continue</a>
+    <a href="loginpage" id="contBtn">Continue</a>
   </div>
 </div>
     </body>
