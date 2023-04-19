@@ -89,19 +89,19 @@ Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/minor"
 
             stmt.setString(1, a);
             stmt.setString(2, b);//1 specifies the first parameter in the query  
-            stmt.setString(3, c);
+            stmt.setInt(3, Integer.parseInt(c));
             stmt.setString(4, d);
 //            stmt.setInt(5, Integer.parseInt(e));
-            stmt.setInt(5, Integer.parseInt(f));
+            stmt.setString(5, f);
             stmt.setString(6, g);
-            stmt.setInt(7, Integer.parseInt(h));
+            stmt.setString(7, h);
             stmt.setInt(8, Integer.parseInt(i));
             stmt.setInt(9, Integer.parseInt(j));
-            stmt.setString(10, k);
-            stmt.setString(11, l);
+            stmt.setInt(10, Integer.parseInt(k));
+            stmt.setInt(11, Integer.parseInt(l));
             stmt.setInt(12, Integer.parseInt(m));
             stmt.setString(13, n);
-            stmt.setInt(14, Integer.parseInt(p));
+            stmt.setString(14, p);
 
             stmt.executeUpdate();
         } catch (Exception K) {

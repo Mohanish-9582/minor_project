@@ -435,24 +435,24 @@
 
                                         <ul>
                                             <li> <input type="text" placeholder="Enter First Name" name="a" >
-                                            <li><input type="tel"  placeholder="Enter phone number" name="m">
-                                            <li> <select name="l">
+                                            <li><input type="tel"  placeholder="Enter phone number" name="c">
+                                            <li> <select name="f">
                                                     <option value="">Gender</option>
                                                     <option value="Male">Male</option>
                                                     <option value="Female">Female</option>
                                                     <option value="Other">Other</option>
                                                 </select>
                                             <li> <div class="add"><span>Address</span><br>
-                                                    <input type="text" placeholder="Address" name="c"></div>
+                                                    <input type="text" placeholder="Address" name="h"></div>
 <!--                                            <li> <span>Id number</span><br><input type="text" placeholder="Id number" name="e">-->
                                         </ul></div>
                                     <div class="ip1-ul2">
 
                                         <ul>
                                             <li><input type="text" placeholder="Enter Last Name" name="b">
-                                            <li><input type="email" placeholder="abc@123" name="n">
+                                            <li><input type="email" placeholder="abc@123" name="d">
                                             <li><input type="date" name="g">
-                                            <li><input type="text" placeholder="Pin code" name="p">
+                                            <li><input type="text" placeholder="Pin code" name="i">
 
                                         </ul></div>
                                 </div>
@@ -474,17 +474,17 @@
                                 <div class="input-field2">
                                     <div class="ip2-ul1">
                                         <ul>
-                                            <li> <input type="text" placeholder="Height" name="i">
-                                            <li><input type="tel"  placeholder="Age" name="f">
-                                            <li><input type="text" placeholder="Medical History (if any)" name="k">
+                                            <li> <input type="text" placeholder="Height" name="j">
+                                            <li><input type="tel"  placeholder="Age" name="l">
+                                            <li><input type="text" placeholder="Medical History (if any)" name="n">
                                             <li><div class="pas" id="pas-field"> <span class="pas-1">Password </span>
-                                                    <input type="password" placeholder="Enter Your Password" name="d"></div>
+                                                    <input type="password" placeholder="Enter Your Password" name="p"></div>
                                         </ul></div>
 
                                     <div class="ip2-ul2">
                                         <ul>
-                                            <li><input type="text" placeholder="Weight" name="h">
-                                            <li><input type="text" placeholder="Adhar card number" name="j">
+                                            <li><input type="text" placeholder="Weight" name="k">
+                                            <li><input type="text" placeholder="Adhar card number" name="m">
 
                                         </ul></div>
                                 </div><hr>
