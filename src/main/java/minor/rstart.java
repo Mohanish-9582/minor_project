@@ -109,4 +109,5 @@ Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/minor"
         }
         return "successful_message";
     }
+    
 }
