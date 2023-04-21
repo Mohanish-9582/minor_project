@@ -157,7 +157,9 @@
                             Don't have account?
                             <a href="sign">Register</a>
                         </div>
-                         <button class="login-button btn btn-success btn-lg rounded mt-5 mx-auto btn-block sticky" id="button1"><i class="bi bi-calendar-check"></i>&nbsp;Login</button>
+                        <form action="wlcm" method="get">
+                              <button class="login-button btn btn-success btn-lg rounded mt-5 mx-auto btn-block sticky" id="button1"><i class="bi bi-calendar-check"></i>&nbsp;Login</button>
+                        </form>
                     </div>
             </div>
         </div>

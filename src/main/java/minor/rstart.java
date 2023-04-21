@@ -55,6 +55,11 @@ public class rstart
         return "aboutus";
     } 
     
+    @RequestMapping(value = "/wlcm", method = RequestMethod.GET)
+    public String welcom() {
+        return "welcome";
+    } 
+    
     
     @RequestMapping(value="/user",method=RequestMethod.POST)
     public String Handleform(
