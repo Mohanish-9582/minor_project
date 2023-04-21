@@ -57,7 +57,7 @@ public class rstart
     
     @RequestMapping(value = "/wlcm", method = RequestMethod.GET)
     public String welcom() {
-        return "welcome";
+        return "Welcome";
     } 
     
     

@@ -171,7 +171,7 @@
             <a class="nav-link" href="#title">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link" href="#download">Upload Docs</a>
+            <a class="nav-link" href="upload_documents">Upload Docs</a>
           </li>
           <li class="nav-item px-3">
             <a class="nav-link" href="#download">Update Docs</a>

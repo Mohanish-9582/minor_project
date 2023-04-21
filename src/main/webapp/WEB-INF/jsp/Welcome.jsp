@@ -233,6 +233,7 @@
   <section id="homepage">
     <img src="./Images/Logo.png" alt="DocuMeds-logo" height="150px" width="150px" id="d1">
     <img src="./Images/Logo.png" alt="DocuMeds-logo" height="150px" width="150px" id="d2">
+    
     <h3 id="text-1">Welcome, to </h3>
     <h1 id="text-2">DocuMeds</h1>
     <h4>
