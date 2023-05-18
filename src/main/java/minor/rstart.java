@@ -24,7 +24,7 @@ public class rstart
     @RequestMapping("/home")
     public String index()
     {
-        System.out.println("Hello");
+//        System.out.println("Hello");
         return "index";
     } 
 @RequestMapping(value = "/start", method = RequestMethod.GET)

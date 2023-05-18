@@ -133,9 +133,9 @@
       <div class="container-fluid">
    
    <!-- Login Form -->
-    <div class="login-box container mt-5">
+    <!--<div class="login-box container mt-5">-->
         <div class="login-box row d-flex justify-content-center">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="form-box card" id="form1">
                     <div class="form-data">
                         <h3>Enter Login Credentials</h3>
