@@ -381,16 +381,7 @@
           <li class="nav-item px-3">
             <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="#download">Upload Docs</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="#download">Update Docs</a>
-          </li>
           
-          <li class="nav-item px-3">
-              <a class="nav-link" href="about">About Us</a>
-          </li>
           <li class="nav-item px-3">
             <a href="#">
               <img src="https://i.ibb.co/Bt7Hkkm/Profile.png" alt="DocuMeds-profile" height="40" width="40" class="DocuMeds-profile">

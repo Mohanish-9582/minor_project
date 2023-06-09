@@ -20,7 +20,7 @@ public class ControllerBLOB extends HttpServlet {
 
     @RequestMapping(value = "/upload_documents", method = RequestMethod.GET)
     public String Loadinsgpage() {
-        return "BLOB/AddDocu";
+        return "BLOB/upload_document";
     }
 
     @RequestMapping(value = "/displayblob", method = RequestMethod.GET)

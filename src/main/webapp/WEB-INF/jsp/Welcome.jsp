@@ -55,14 +55,14 @@
 
       .navbar {
         background-color: #69d71a;
-        height: 3em;
+        height: 5em;
       }
 
       .navbar .navbar-logo {
         display: flex;
         align-items: bottom;
         justify-content: bottom;
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: bolder;
         font-family: 'Zen Kaku Gothic New', sans-serif;
         color: #121315;
@@ -106,7 +106,7 @@
     }
 
     #homepage {
-      margin-top: 6em;
+      margin-top: 10em;
     }
 
     #quote h1 {
@@ -211,14 +211,14 @@
             <a class="nav-link" href="#title">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link" href="#download">Upload Docs</a>
+            <a class="nav-link" href="upload_documents">Upload Docs</a>
           </li>
-          <li class="nav-item px-3">
+<!--          <li class="nav-item px-3">
             <a class="nav-link" href="#download">Update Docs</a>
-          </li>
+          </li>-->
           
           <li class="nav-item px-3">
-              <a class="nav-link" href="#about-us">About Us</a>
+              <a class="nav-link" href="start">Logout</a>
           </li>
           <li class="nav-item px-3">
             <a href="#">
@@ -231,8 +231,8 @@
   </section>
 
   <section id="homepage">
-    <img src="./Images/Logo.png" alt="DocuMeds-logo" height="150px" width="150px" id="d1">
-    <img src="./Images/Logo.png" alt="DocuMeds-logo" height="150px" width="150px" id="d2">
+    <img src="https://i.ibb.co/vBfQc1t/Logo.png" alt="DocuMeds-logo" height="150px" width="150px" id="d1">
+    <img src="https://i.ibb.co/vBfQc1t/Logo.png" alt="DocuMeds-logo" height="150px" width="150px" id="d2">
     
     <h3 id="text-1">Welcome, to </h3>
     <h1 id="text-2">DocuMeds</h1>

@@ -4,12 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Uploaded Successfully</title>
+        <title>Upload Document</title>
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="shortcut icon" href="https://i.ibb.co/ySDd7MM/Favicon.png" type="image/x-icon">
         <style>
-            @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
             @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 
@@ -25,18 +24,22 @@
             h1 {
                 color: #7de235;
                 font-family: 'Zen Kaku Gothic New', sans-serif;
-                font-size: 4.5em;
+                font-size: 3.5em;
                 font-weight: bolder;
             }
 
             .p1 {
-                margin-top: 0.8em;
-                font-size: 1.5em;
+                margin-top: 1em;
+                font-size: 1.2em;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 color: aliceblue;
                 opacity: 60%;
             }
-
+            
+            input {
+                color: white;
+                font-size: 1.3rem;
+            }
             #uploadfile {
                 margin-top: 1em;
                 display: hidden;
@@ -47,7 +50,7 @@
             }
 
             .btn {
-                margin-top:3em;
+                margin-top:2em;
                 padding: 1em 3em;
                 font-size: 1.3rem;
                 font-weight: 600;
@@ -202,10 +205,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto px-lg-4">
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#title">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="wlcm">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#about-us">Logout</a>
+                            <a class="nav-link" href="start">Logout</a>
                         </li>
                         <li class="nav-item px-3">
                             <a href="#">
@@ -217,16 +220,14 @@
             </nav>
         </section>
         <div class="container">
+            <form action="restaurantform1" method="post" style="font-family: 'Poppins', sans-serif;" id="form" enctype="multipart/form-data">
+                <h1>Upload your Documents</h1>
+                <p class="p1">.PNG and .JPG files are allowed</p>
+                <input required id="images" type="file" style="margin-left: 100px; padding: 10px;" accept="image/png, image/jpeg" name="k"/>
 
-            <h1>Congralutions
-                <i class="bi bi-check-circle-fill" style="color: #69d71a;"></i>
-            </h1>
-            <p class="p1">Your document has been uploaded successfully</p>
-            <a href="wlcm"><input type="submit" name="submit-button" id="submit-btn" value="Return Home" class="submit-btn btn" id="btn"/></a>
-            <br>
-            <a href="displayblob"><input type="submit" name="submit-button" id="submit-btn" value="View Uploaded Documents" class="submit-btn btn" id="btn"/></a>
-
-
+                <br>     
+                <input type="submit" name="submit-button" id="submit-btn" value="UPLOAD" class="submit-btn btn" id="btn"/>
+            </form>
         </div>
 
         <footer>
